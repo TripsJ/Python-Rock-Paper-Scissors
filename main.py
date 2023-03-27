@@ -40,4 +40,4 @@ if type(choices) == str:
 else:
     print("Computer chose: " + choices.get("computer"))
     print("Player chose: " + choices.get("player"))
-    print (check_win(choices.get("player"), choices.get("computer")))
+    print(check_win(choices.get("player"), choices.get("computer")))
